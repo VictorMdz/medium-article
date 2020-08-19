@@ -1,0 +1,105 @@
+body {
+  background-color: #f7f7f7;
+  margin: 0;
+  color: #494949;
+}
+
+p, .subtitle {
+  font-family: 'Lora';
+}
+
+h1, h2 {
+  font-family: 'Montserrat';
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-style: italic;
+}
+
+h2 {
+  color: #a0a0a0;
+  font-weight: 400;
+}
+
+.subtitle, h2 {
+  font-size: 32px;
+}
+
+a {
+  font-size: 32px;
+  font-family: 'Lora';
+  text-decoration: none;
+  color: #494949;
+  background-image: linear-gradient(to left, rgba(233, 253, 240, 1), rgb(181, 255, 207, 1));
+}
+
+a:hover {
+ background-image: linear-gradient(to right, rgba(233, 253, 240, 1), rgb(73, 255, 137, 1));
+}
+
+.header {
+  color: #fff;
+  padding: 150px;
+  background-image: url("https://source.unsplash.com/random");
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  max-width: 700px;
+  margin: 90px auto;
+}
+
+
+
+
+/* Screens < 1200px */
+@media(max-width: 1200px) {
+}
+
+/* Screens < 992px */
+@media(max-width: 992px) {
+  .container {
+    width: 80%;
+  }
+
+  .header {
+    padding: 100px;
+  }
+}
+
+/* Screens < 768px */
+@media(max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}
+
+/* Screens < 576px */
+@media(max-width: 576px) {
+  .container {
+    width: 70%;
+  }
+
+  .header {
+    padding: 70px 80px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  a, .subtitle, h2 {
+    font-size: 22px;
+  }
+}
